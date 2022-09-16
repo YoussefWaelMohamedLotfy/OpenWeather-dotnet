@@ -3,9 +3,35 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32901.215
 MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{0609CC07-5EE0-460F-952B-27E4DF5B4D44}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenWeather.SDK", "src\OpenWeather.SDK\OpenWeather.SDK.csproj", "{D3398D78-252E-4DE1-9756-428969101D54}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{4E4D2D4F-FF71-4357-B382-2BC57A99B77D}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		LICENSE.txt = LICENSE.txt
+		README.md = README.md
+	EndProjectSection
+EndProject
 Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D3398D78-252E-4DE1-9756-428969101D54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3398D78-252E-4DE1-9756-428969101D54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3398D78-252E-4DE1-9756-428969101D54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3398D78-252E-4DE1-9756-428969101D54}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{D3398D78-252E-4DE1-9756-428969101D54} = {0609CC07-5EE0-460F-952B-27E4DF5B4D44}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ED726D69-00A0-4373-BCEE-086B50F9CA27}
