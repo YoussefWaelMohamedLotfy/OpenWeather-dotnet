@@ -20,6 +20,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "samples", "samples", "{D9EC
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenWeather.Console", "samples\OpenWeather.Console\OpenWeather.Console.csproj", "{F14C1BAC-9136-45EF-B184-98DB325664A2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenWeather.API", "samples\OpenWeather.API\OpenWeather.API.csproj", "{B101854B-B176-4341-982C-6756BE92854F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -34,6 +36,10 @@ Global
 		{F14C1BAC-9136-45EF-B184-98DB325664A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F14C1BAC-9136-45EF-B184-98DB325664A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F14C1BAC-9136-45EF-B184-98DB325664A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B101854B-B176-4341-982C-6756BE92854F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B101854B-B176-4341-982C-6756BE92854F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B101854B-B176-4341-982C-6756BE92854F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B101854B-B176-4341-982C-6756BE92854F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -41,6 +47,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{D3398D78-252E-4DE1-9756-428969101D54} = {0609CC07-5EE0-460F-952B-27E4DF5B4D44}
 		{F14C1BAC-9136-45EF-B184-98DB325664A2} = {D9EC7B3E-DE1F-4E4E-9E53-5F06EF94093B}
+		{B101854B-B176-4341-982C-6756BE92854F} = {D9EC7B3E-DE1F-4E4E-9E53-5F06EF94093B}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {ED726D69-00A0-4373-BCEE-086B50F9CA27}
