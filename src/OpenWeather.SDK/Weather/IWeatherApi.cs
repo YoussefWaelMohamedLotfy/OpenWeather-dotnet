@@ -2,6 +2,9 @@
 
 namespace OpenWeather.SDK.Weather;
 
+/// <summary>
+/// Weather Endpoints supported in OpenWeather API
+/// </summary>
 public interface IWeatherApi
 {
     /// <summary>

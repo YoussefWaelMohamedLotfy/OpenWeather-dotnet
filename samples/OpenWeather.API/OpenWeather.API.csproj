@@ -11,7 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Controllers\" />
+    <ProjectReference Include="..\..\src\OpenWeather.SDK\OpenWeather.SDK.csproj" />
   </ItemGroup>
 
 </Project>

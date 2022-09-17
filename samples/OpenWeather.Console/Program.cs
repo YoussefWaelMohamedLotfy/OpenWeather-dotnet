@@ -1,2 +1,9 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using OpenWeather.SDK.Weather;
+using Refit;
+
+Console.WriteLine("Testing API Endpoints...");
+
+var weatherApi = RestService.For<IWeatherApi>("");
+var response = await weatherApi.GetWeatherAsync("London", "YOUR-KEY");
+
+Console.WriteLine(response.StatusCode);
