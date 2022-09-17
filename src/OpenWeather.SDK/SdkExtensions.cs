@@ -1,4 +1,5 @@
 ﻿using Microsoft.Extensions.DependencyInjection;
+using OpenWeather.SDK.Geocoding;
 using OpenWeather.SDK.Weather;
 using Refit;
 
@@ -21,6 +22,12 @@ public static class SdkExtensions
             {
                 client.BaseAddress = new Uri("https://api.openweathermap.org/data/2.5");
             });
+
+        services.AddRefitClient<IGeocodingApi>()
+            .ConfigureHttpClient(client =>
+            {
+                client.BaseAddress = new Uri("https://api.openweathermap.org/geo/1.0");
+            }); 
 
         return services;
     }
