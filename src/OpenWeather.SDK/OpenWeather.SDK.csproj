@@ -8,8 +8,16 @@
     <Authors>Youssef Wael</Authors>
     <Description>A wrapper for the OpenWeather API, built for .NET</Description>
     <RepositoryUrl>https://github.com/YoussefWaelMohamedLotfy/OpenWeather-dotnet</RepositoryUrl>
-    <PackageTags>openweather; sdk</PackageTags>
+    <PackageTags>openweather; sdk; net6</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
   <ItemGroup>
     <PackageReference Include="Refit.HttpClientFactory" Version="6.3.2" />
