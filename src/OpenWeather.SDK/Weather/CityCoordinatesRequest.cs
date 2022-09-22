@@ -11,11 +11,11 @@ public sealed class CityCoordinatesRequest
     /// City/Area Latitude
     /// </summary>
     [AliasAs("lat")]
-    public string? Latitude { get; set; }
+    public string? Latitude { get; init; }
         
     /// <summary>
     /// City/Area Longitude
     /// </summary>
     [AliasAs("lon")]
-    public string? Longitude { get; set; }
+    public string? Longitude { get; init; }
 }

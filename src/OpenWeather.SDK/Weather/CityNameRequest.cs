@@ -11,5 +11,5 @@ public sealed class CityNameRequest : OpenWeatherBase
     /// City name to get weather for
     /// </summary>
     [AliasAs("q")]
-    public string? CityName { get; set; }
+    public string? CityName { get; init; }
 }
