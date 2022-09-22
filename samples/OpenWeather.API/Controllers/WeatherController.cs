@@ -26,7 +26,11 @@ public sealed class WeatherController : ControllerBase
     [HttpGet]
     public async Task<IActionResult> GetWeather(string city, string apiKey)
     {
-        var response = await _weatherApi.GetWeatherAsync(city, apiKey);
+        var response = await _weatherApi.GetWeatherAsync(new CityNameRequest
+        {
+            ApiKey = apiKey,
+            CityName = city
+        });
 
         if (response.IsSuccessStatusCode)
             return Ok(response.StatusCode);
