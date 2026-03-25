@@ -8,7 +8,7 @@ Check the [`samples` folder](https://github.com/YoussefWaelMohamedLotfy/OpenWeat
 
 ## Supported Platforms
 
-The library currently supports .NET 6 only.
+The library currently supports .NET 10 only.
 
 ## Installing the package
 
