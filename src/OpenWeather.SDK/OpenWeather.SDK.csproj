@@ -1,14 +1,14 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net6.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
     <Title>OpenWeather.SDK</Title>
     <Authors>Youssef Wael</Authors>
     <Description>A wrapper for the OpenWeather API, built for .NET</Description>
     <RepositoryUrl>https://github.com/YoussefWaelMohamedLotfy/OpenWeather-dotnet</RepositoryUrl>
-    <PackageTags>openweather; sdk; net6</PackageTags>
+    <PackageTags>openweather; sdk; net10</PackageTags>
     <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
@@ -20,7 +20,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <PackageReference Include="Refit.HttpClientFactory" Version="10.0.1" />
+    <PackageReference Include="Refit.HttpClientFactory" Version="10.1.6" />
   </ItemGroup>
 
 </Project>
